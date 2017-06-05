@@ -4,22 +4,18 @@ import java.util.ArrayList;
 //Maria Fernanda Estrada
 //Analucia Diaz
 
+
+
+
+
 public class Graph {
-
-
 
     ArrayList<String> nodos = new ArrayList<>();
 
     ArrayList<ArrayList<Integer>> edges = new ArrayList<>(), floyd, floydNodos = new ArrayList<>();
 
 
-
-   
-
     public Graph () {}
-
-
-
 
 
     public void addEdge(String line) {
@@ -28,13 +24,7 @@ public class Graph {
 
         String temp = "", tempNum = "";
 
-
-
- 
-
         for (int i = 0; i < line.length(); i++) {
-
-     
 
             if (Character.isLetter(line.charAt(i)) || Character.isDigit(line.charAt(i))) {
 
